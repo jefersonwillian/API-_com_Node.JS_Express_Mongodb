@@ -14,7 +14,7 @@ os acessos ao nosso servidor. Morgan é tal ferramente, para
 o Express, mas que também pode ser usada no NodeJS puro, com 
 apenas o módulo http para servir páginas web.*/
 
-// conexao com banco de dados
+// conexao com banco de dados -- 
 var mongoose = require('mongoose');
 
 mongoose.connect('mongodb://localhost:27017/gerenciador');
